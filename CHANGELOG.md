@@ -1,10 +1,16 @@
+## 1.3.5
+
+Update Dart SDK and dependencies; Update native projects
+
 ## 1.3.4
+
 * Changes in Android according to embedding v2 docs:
   https://github.com/flutter/flutter/wiki/Upgrading-pre-1.12-Android-projects
 * Fixed a syntax error with recent Kotlin versions.
 * Fixed a null-safety error in Dart code.
 
 ## 1.3.3
+
 * Fixed https://github.com/IsaiasSantana/keyboard_utils/pull/42
 
 ## 1.3.2
@@ -25,7 +31,7 @@
 
 ## 1.2.3
 
-* Fixes  MissingPluginException on Flutter Web.
+* Fixes MissingPluginException on Flutter Web.
 
 ## 1.2.2
 
