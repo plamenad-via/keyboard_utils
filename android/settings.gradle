@@ -1,1 +1,3 @@
+package android
+
 rootProject.name = 'keyboard_utils'

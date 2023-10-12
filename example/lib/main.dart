@@ -16,7 +16,7 @@ class KeyboardBloc {
 
   KeyboardUtils get keyboardUtils => _keyboardUtils;
 
-  int _idKeyboardListener;
+  int? _idKeyboardListener;
 
   void start() {
     _idKeyboardListener = _keyboardUtils.add(
