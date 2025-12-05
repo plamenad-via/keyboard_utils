@@ -10,7 +10,9 @@ import 'keyboard_options.dart';
 class KeyboardUtils {
   KeyboardUtils() {
     if (!kIsWeb) {
-      _keyboardSubscription ??= _eventChannel.receiveBroadcastStream().listen(_onKeyboardListener);
+      _keyboardSubscription ??= _eventChannel.receiveBroadcastStream().listen(
+        _onKeyboardListener,
+      );
     }
   }
 
@@ -20,7 +22,8 @@ class KeyboardUtils {
 
   static int _count = 0;
 
-  static Map<int, KeyboardListener> _listenersKeyboardEvents = Map<int, KeyboardListener>();
+  static Map<int, KeyboardListener> _listenersKeyboardEvents =
+      Map<int, KeyboardListener>();
 
   static KeyboardOptions? _keyboardOptions;
 

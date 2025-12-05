@@ -1,3 +1,7 @@
+## 1.3.6
+
+Update Dart SDK
+
 ## 1.3.5
 
 Update Dart SDK and dependencies; Update native projects

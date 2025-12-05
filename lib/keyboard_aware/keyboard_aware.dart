@@ -7,7 +7,10 @@ class KeyboardAware extends StatefulWidget {
   const KeyboardAware({required this.builder});
 
   final Widget Function(
-      BuildContext context, KeyboardOptions configuracaoTeclado) builder;
+    BuildContext context,
+    KeyboardOptions configuracaoTeclado,
+  )
+  builder;
 
   @override
   State<KeyboardAware> createState() => _KeyboardAwareState();
@@ -52,8 +55,9 @@ class _KeyboardAwareState extends State<KeyboardAware> {
     return widget.builder(
       context,
       KeyboardOptions(
-          keyboardHeight: _keyboardUtils.keyboardHeight,
-          isKeyboardOpen: _keyboardUtils.isKeyboardOpen),
+        keyboardHeight: _keyboardUtils.keyboardHeight,
+        isKeyboardOpen: _keyboardUtils.isKeyboardOpen,
+      ),
     );
   }
 }
