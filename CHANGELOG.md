@@ -1,3 +1,10 @@
+## 2.0.0
+
+* Migrate the iOS plugin from CocoaPods to Swift Package Manager.
+* Remove the CocoaPods podspec and Objective-C plugin shim.
+* Update the example iOS app for Flutter's Swift Package Manager integration.
+* Require Dart SDK ^3.12.0 and Flutter >=3.44.0.
+
 ## 1.3.6
 
 Update Dart SDK
